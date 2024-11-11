@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    overflow: hidden;
+}
+
+#pointer-image {
+    display: none;
+    width: 100vw;           /* 設定寬度為視窗的 100% */
+    height: 100vh;          /* 設定高度為視窗的 100% */
+    object-fit: cover;      /* 圖片填滿螢幕，並保持比例 */
+}
